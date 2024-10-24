@@ -1,0 +1,29 @@
+{
+    "modules": [
+      {
+        "name": "Data Source",
+        "module_type": "1001",
+        "position": [100, 100],
+        "size": [200, 150],
+        "input_slots": ["Data From 1", "Data From 2"],
+        "output_slots": ["Formated", "Raw"]
+      },
+      {
+        "name": "Predict Module",
+        "module_type": "1002",
+        "position": [400, 300],
+        "size": [200, 150],
+        "input_slots": ["Recever"],
+        "output_slots": ["MKV Filter", "Price Filter", "Rank Filter"]
+      },
+      {
+        "name": "Result",
+        "module_type": "1003",
+        "position": [700, 200],
+        "size": [200, 150],
+        "input_slots": ["Predict Data", "Test Data"],
+        "output_slots": ["Execute"]
+      }
+    ]
+  }
+  
