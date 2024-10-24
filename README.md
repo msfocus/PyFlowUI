@@ -14,7 +14,7 @@
 
 ## Screenshots
 
-*(Include some screenshots of your project here to showcase the UI and its features.)*
+![PyFlowUI Demo](https://github.com/msfocus/PyFlowUI/blob/main/demo.png)
 
 ## Getting Started
 
